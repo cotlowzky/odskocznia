@@ -1,8 +1,8 @@
 import React from 'react'
-
+import './TopNavbar.css'
 export default function TopNavbar() {
   return (
-    <header className='flex-row flex-justify-around'>
+    <header className='flex-row flex-justify-around h-5 background-navbar flex-items-center'>
         <p>logo</p>
         <a href="#">zasady bezpieczeństwa</a>
         <a href="#">regulamin</a>

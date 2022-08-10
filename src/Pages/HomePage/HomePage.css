@@ -1,0 +1,10 @@
+.hero-image{
+    background-image: url('../../assets/hero-image-1.jpg');
+    background-size: cover;
+}
+.bar{
+    height: 100%;
+    width: 1%;
+    background-color: #322350;
+    margin:0 4.5%
+}

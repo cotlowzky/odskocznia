@@ -3,6 +3,21 @@
   padding: 0;
   box-sizing: border-box;
 }
+a{
+  color: #fff;
+  text-decoration: none;
+}
+/* fonts */
+@font-face {
+  font-family: 'ComingSoon';
+  src: url('./assets/fonts/ComingSoon-Regular.ttf');
+}
+.font-coming{
+  font-family: 'ComingSoon';
+}
+.font-48{
+  font-size: 48px;
+}
 /* flex */
 .flex-row{
   display: flex;
@@ -15,16 +30,80 @@
 .flex-justify-around{
   justify-content: space-around;
 }
+.flex-center{
+  justify-content: center;
+  align-items: center;
+}
+.flex-items-center{
+  align-items: center;
+}
 
 /* colors */
 .background{
   background-image: linear-gradient(to bottom,#473174, #A42257 );
+}
+.background-hero{
+  background-color: #322350;
 }
 
 /* size */
 .w-100{
   width: 100vw;
 }
+.w-50{
+  width: 50vw;
+}
 .h-100{
   height: 100vh;
+}
+.h-95{
+  height: 95vh;
+}
+.h-10{
+  height: 10vh;
+}
+.h-5{
+  height: 5vh;
+}
+/* padding & margin */
+.m-title{
+  margin:3px;
+}
+.p-2{
+  padding: 2%;
+}
+.m-1{
+  margin: 1%;
+}
+/* buttons */
+.button{
+  border:none;
+  box-shadow: 4px 0 4px 0 rgba(0, 0, 0,0.25);
+  border-radius: 10px;
+}
+.button p{
+  text-transform: uppercase;
+  color: white;
+  font-weight: 600;
+}
+.button:hover{
+  cursor: pointer;
+}
+.button-first:hover{
+  background-color: #322350;
+  border: #CDCC1C 1px solid;
+  transition: all .5s;
+}
+.button-second:hover{
+  background-color: #322350;
+  border: #473174 1px solid;
+  transition: linear .5s;
+}
+.button-first{
+  background-color: #CDCC1C;
+  border:none
+}
+.button-second{
+  background-color: #473174;
+  border:none
 }
