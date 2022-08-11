@@ -1,5 +1,5 @@
 .hero-image{
-    background-image: url('../../assets/hero-image-1.jpg');
+    background-image: url('../../assets/img/hero-image-1.jpg');
     background-size: cover;
 }
 .bar{
@@ -7,4 +7,11 @@
     width: 1%;
     background-color: #322350;
     margin:0 4.5%;
+}
+.hopmania-wrapper{
+    background-image:url('../../assets/img/hopmania-image.jpg');
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
