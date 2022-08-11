@@ -1,3 +1,9 @@
 .background-navbar{
-    background-color: #322350;
+    background-color: #473174;
+    margin: 0 auto 2% auto;
+}
+.background-navbar a:hover{
+    border-bottom: solid #322350 3px;
+    padding-bottom: 3px;
+    transition: .2s all;
 }

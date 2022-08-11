@@ -97,9 +97,6 @@ a{
 .background{
   background-image: linear-gradient(to bottom,#473174, #A42257 );
 }
-.background-hero{
-  background-color: #322350;
-}
 .shadow{
   box-shadow: 4px 0 4px 0 rgba(0, 0, 0,0.25);
 }
@@ -112,6 +109,9 @@ a{
 }
 .w-80{
   width: 80vw;
+}
+.w-70{
+  width: 70vw;
 }
 .w-50{
   width: 50vw;
@@ -159,30 +159,4 @@ a{
   box-shadow: 4px 0 4px 0 rgba(0, 0, 0,0.25);
   border-radius: 10px;
   width: 60%;
-}
-.button p{
-  text-transform: uppercase;
-  color: white;
-  font-weight: 600;
-}
-.button:hover{
-  cursor: pointer;
-}
-.button-first:hover{
-  background-color: #322350;
-  border: #CDCC1C 1px solid;
-  transition: all .5s;
-}
-.button-second:hover{
-  background-color: #322350;
-  border: #473174 1px solid;
-  transition: linear .5s;
-}
-.button-first{
-  background-color: #CDCC1C;
-  border:none
-}
-.button-second{
-  background-color: #473174;
-  border:none
 }
