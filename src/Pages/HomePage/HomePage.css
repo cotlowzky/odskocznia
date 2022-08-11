@@ -8,10 +8,34 @@
     background-color: #322350;
     margin:0 4.5%;
 }
+.home-image{
+    height: 40vh;
+    background-image:url('../../assets/img/main-image-1.jpg');
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .hopmania-wrapper{
     background-image:url('../../assets/img/hopmania-image.jpg');
     background-attachment: fixed;
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.hopmania-inner-wrapper{
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 50%;
+    width: 60%;
+    border-radius: 20px;
+    padding:2% 5%;
+}
+.hopmania-button{
+    background-color: #FF3E3E;
+    border-radius: 10px;
+    border:none;
+    align-self: center;
+}
+.hopmania-button:hover{
+    cursor: pointer;
 }

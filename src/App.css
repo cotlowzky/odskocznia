@@ -70,6 +70,9 @@ a{
 .text-upper{
   text-transform: uppercase;
 }
+.text-center{
+  text-align: center;
+}
 /* flex */
 .flex-row{
   display: flex;

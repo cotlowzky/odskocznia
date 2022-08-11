@@ -47,11 +47,12 @@ function HomePage() {
             <div className='bar'></div>
           </div>
         </div>
+        <div className='home-image'></div>
         <div>
           <p className='font-white font-montserrat-semi-bold m-3 font-20'>Park trampolin na Opolszczyźnie. <span className='text-upper'>odskocznia</span> w Opolu zaprasza. 1200m2 atrakcji i miejsca do zabawy i aktywnego spędzania czasu. Trampoliny klasyczne, skośne, olimpijskie, arena dodgeball, strefa ninja, wieża do skoków na dmuchana poduchę, baseny z gąbkami, kosze do wsadów z trampolin.
           </p>
           <div className='w-100 flex-row flex-center'>
-              <div className='flex-row w-80 '>
+              <div className='flex-row w-80  m-3'>
                 <div className='w-33 flex-column flex-center'>
                   <CategoryComponent name="zasady bezpieczeństwa"/>
                   <CategoryComponent name="zgoda rodzica pdf"/>
@@ -67,9 +68,9 @@ function HomePage() {
             </div>
           </div>
           <div className='hopmania-wrapper h-30 flex-column flex-center'>
-            <div>
-              <p className='font-black font-montserrat-semi-bold font-38 text-upper'>dołącz do klubu hopmaniaków i skorzystaj z mega promocji</p>
-              <button>dowiedz się więcej</button>
+            <div className='hopmania-inner-wrapper flex-column flex-center'>
+              <p className='font-black font-montserrat-semi-bold font-38 text-upper text-center'>dołącz do klubu hopmaniaków i skorzystaj z mega promocji!</p>
+              <button className='hopmania-button p-2 m-3'><p className='font-white font-montserrat-semi-bold text-upper'>dowiedz się więcej</p></button>
             </div>
           </div>
           <p>&copy; FILIP KOTŁOWSKI 2022 ALL RIGHT RESERVED</p>
