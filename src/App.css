@@ -153,6 +153,13 @@ a{
 .m-3{
   margin: 3%;
 }
+/* other */
+.hidden{
+  display: none;
+}
+.visible{
+  display: flex;
+}
 /* buttons */
 .button{
   border:none;
