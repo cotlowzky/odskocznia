@@ -4,24 +4,30 @@ import FaqComponentQ from '../../Components/FaqComponentQ/FaqComponentQ';
 import TopNavbar from '../../Components/TopNavbar/TopNavbar';
 import './FaqPage.css';
 function FaqPage() {
-    const [currentQuestion,setCurrentQuestion] = useState(1)
+    const allQuestions = {
+      q1:false,
+      q2:false,
+      q3:false,
+      q4:false
+    }
+    const [shownQuestions, setShownQuestions] = useState(allQuestions);
+    const showQuestion = (event,key)=>{
+      event.preventDefault();
+      setShownQuestions({...shownQuestions,...{[key]:true}})
+      answers[event.currentTarget.id].classList.toggle('visible')
+    }
     const questions = document.querySelectorAll('.question')
     const answers = document.querySelectorAll('.answer')
     let questionCounter = 0;
     document.title = "Odskocznia - FAQ";
+    
     useEffect(()=>{
-      function showAnswer(element){
-        setCurrentQuestion(Number(element.id))
-        answers[currentQuestion].classList.toggle('visible')
-        console.log(answers[currentQuestion].outerText)
-      }
       questions.forEach(element => {
-        element.addEventListener('click',()=>{showAnswer(element)})
         element.classList.add('question#'+ questionCounter)
         element.setAttribute("id",questionCounter)
         questionCounter++
       });
-    })
+  })
   return (
     <div className='background'>
         <TopNavbar />
@@ -29,13 +35,13 @@ function FaqPage() {
             <h2 className='text-upper font-montserrat-medium font-white font-38 text-shadow'>
                 Pytania i odpowiedzi
             </h2>
-            <FaqComponentQ question="Co trzeba wiedzieć przed pierwszą wizytą w parku trampolin?"/>
+            <FaqComponentQ onClick={(e)=>showQuestion(e,'q1')}question="Co trzeba wiedzieć przed pierwszą wizytą w parku trampolin?"/>
             <FaqComponentA answer="kaka1" />
-            <FaqComponentQ question="Od jakiego wieku dzieci mogą korzystać z parku trampolin?"/>
+            <FaqComponentQ onClick={(e)=>showQuestion(e,'q2')} question="Od jakiego wieku dzieci mogą korzystać z parku trampolin?"/>
             <FaqComponentA answer="kaka2" />
-            <FaqComponentQ question="Czy można zarezerwować miejsce w Odskoczni na konkretną godzinę?"/>
+            <FaqComponentQ onClick={(e)=>showQuestion(e,'q3')} question="Czy można zarezerwować miejsce w Odskoczni na konkretną godzinę?"/>
             <FaqComponentA answer="kaka3" />
-            <FaqComponentQ question="Jak długo macie otwarte?"/>
+            <FaqComponentQ onClick={(e)=>showQuestion(e,'q4')} question="Jak długo macie otwarte?"/>
             <FaqComponentA answer="kaka4" />
         </div>
     </div>
