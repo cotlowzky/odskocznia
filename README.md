@@ -14,8 +14,7 @@
 ## Features
 
 ## Contact
-
-    Filip Kotłowski
-    * mail: kotlowskifilip@gmail.com
-    * github: github.com/cotlowzky
+Filip Kotłowski
+* mail: kotlowskifilip@gmail.com
+* github: github.com/cotlowzky
 ## Acknowledgements
