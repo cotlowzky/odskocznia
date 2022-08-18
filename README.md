@@ -1,6 +1,6 @@
 # Odskocznia
 
-##Table of Contents
+## Table of Contents
 - [Overview](#overview)
 - [Built With](#built-with)
 - [Features](#features)
@@ -16,5 +16,5 @@
 ## Contact
 Filip Kotłowski
 * mail: kotlowskifilip@gmail.com
-* github: github.com/cotlowzky
+* [github](https://www.github.com/cotlowzky) - github
 ## Acknowledgements
