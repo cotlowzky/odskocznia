@@ -7,12 +7,15 @@
 - [Contact](#contact)
 - [Acknowledgements](#acknowledgements)
 
-##Overwiev
+## Overview
 
-###Built With
+### Built With
 
-##Features
+## Features
 
-##Contact
+## Contact
 
-##Acknowledgements
+    Filip Kotłowski
+    * mail: kotlowskifilip@gmail.com
+    * github: github.com/cotlowzky
+## Acknowledgements
