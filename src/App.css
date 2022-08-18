@@ -155,10 +155,11 @@ a{
 }
 /* other */
 .hidden{
-  display: none;
+  display: none !important;
 }
-.visible{
-  display: flex;
+.visible{ 
+  display: flex !important;
+  opacity: 1 !important;
 }
 /* buttons */
 .button{
