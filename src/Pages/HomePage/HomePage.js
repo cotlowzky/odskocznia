@@ -3,7 +3,7 @@ import CategoryComponent from '../../Components/CategoryComponent/CategoryCompon
 import TopNavbar from '../../Components/TopNavbar/TopNavbar'
 import './HomePage.css'
 function HomePage() {
-  
+  document.title = "Odskocznia - Strona główna"
   return (
       <div className='background w-100'>
         <TopNavbar />

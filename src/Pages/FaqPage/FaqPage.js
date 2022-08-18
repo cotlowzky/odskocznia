@@ -4,6 +4,7 @@ import FaqComponentQ from '../../Components/FaqComponentQ/FaqComponentQ';
 import TopNavbar from '../../Components/TopNavbar/TopNavbar';
 import './FaqPage.css';
 function FaqPage() {
+  document.title = "Odskocznia - FAQ";
     const allQuestions = {
       q1:false,
       q2:false,
@@ -20,7 +21,6 @@ function FaqPage() {
     const questions = document.querySelectorAll('.question')
     const answers = document.querySelectorAll('.answer')
     let questionCounter = 0;
-    document.title = "Odskocznia - FAQ";
     
     useEffect(()=>{
       questions.forEach(element => {
