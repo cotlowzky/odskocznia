@@ -15,6 +15,6 @@
 
 ## Contact
 Filip Kotłowski
-* mail: kotlowskifilip@gmail.com
+* kotlowskifilip@gmail.com
 * [github](https://www.github.com/cotlowzky)
 ## Acknowledgements
