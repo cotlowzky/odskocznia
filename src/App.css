@@ -48,6 +48,13 @@ a{
   font-family: 'Lato-Bold';
 }
 
+@font-face {
+  font-family: 'Lato-Regular';
+  src: url('./assets/fonts/Lato-Regular.ttf');
+}
+.font-lato-regular{
+  font-family: 'Lato-Regular';
+}
 .font-64{
   font-size: 64px;
 }
@@ -66,9 +73,18 @@ a{
 .font-black{
   color: black !important;
 }
+.font-yellow{
+  color: #cdcc1c !important;
+}
+.font-violet{
+  color: #473174 !important;
+}
 /* text */
 .text-upper{
   text-transform: uppercase;
+}
+.text-small-caps{
+  font-variant: small-caps;
 }
 .text-center{
   text-align: center;
@@ -141,11 +157,17 @@ a{
 .m-title{
   margin:3px;
 }
+.p-1{
+  padding: 1%;
+}
 .p-2{
   padding: 2%;
 }
 .p-3{
   padding: 3%;
+}
+.m-1{
+  margin: 0;
 }
 .m-1{
   margin: 1%;

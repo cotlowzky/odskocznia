@@ -6,6 +6,7 @@ import {
   Routes,
   Route } from "react-router-dom";
 import FaqPage from './Pages/FaqPage/FaqPage';
+import HopManiaPage from './Pages/HopManiaPage/HopManiaPage';
 function App() {
   return (
     <div className="App">
@@ -13,6 +14,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/faq" element={<FaqPage />} />
+        <Route path="/hop-mania" element={<HopManiaPage />} />
       </Routes>
     </BrowserRouter>
     </div>

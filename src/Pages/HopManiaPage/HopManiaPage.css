@@ -1,0 +1,11 @@
+.hop-mania-info{
+    border-radius: 20px;
+    width:50%;
+    margin-bottom: 1%;
+}
+.hm-info-1{
+    background-color: rgba(157, 185, 75, 0.5);
+}
+.hm-info-2{
+    background-color: rgba(69, 200, 255, 0.5);
+}
