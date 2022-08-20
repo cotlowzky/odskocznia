@@ -58,8 +58,22 @@ function HopManiaPage() {
                 <p className='text-small-caps font-montserrat-regular font-yellow font-32 m-3'>
                     O czym trzeba pamiętać po dołączeniu do klubu HopMania
                 </p>
+                <ul className='font-lato-medium font-white font-18'>
+                    <li>Karta lojalnościowa jest ważna do końca 2022 roku (później trzeba ją przedłużyć)</li>
+                    <li>Zgubienie karty uniemożliwia wystawienie duplikatu</li>
+                </ul>
+                <p className='text-small-caps font-montserrat-regular font-blue font-32 m-3'>
+                    Dołączysz do Klubu Hopmanii?
+                </p>
+                <div className='flex-row flex-justify-around m-1'>
+                    <button className='first-button p-2'><p className='font-white font-montserrat-medium text-small-caps font-18'>Tak, chcę dołączyć!</p></button>
+                    <button className='second-button p-2'><p className='font-white font-montserrat-medium text-small-caps font-18'>Jeszcze nie chce, chce przeczytać regulamin</p></button>
+                </div>
+                <div className='background-tel p-3'>
+                    <p className='text-small-caps font-montserrat-semi-bold font-white font-38 text-center'>Masz pytania? Zadzwoń - Tel.733 60 80 80!</p>
+                </div>
             </div>
-                
+          <p>&copy; FILIP KOTŁOWSKI 2022 ALL RIGHT RESERVED</p>    
     </div>
   )
 }

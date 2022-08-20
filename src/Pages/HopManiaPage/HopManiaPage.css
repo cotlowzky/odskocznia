@@ -13,3 +13,30 @@
     overflow-x: auto;
     overflow-wrap: break-word;
 }
+.background-tel{
+    background-image: linear-gradient(to right,#A42257,#DF347A);
+}
+.first-button{
+    background: transparent;
+    border: 7px solid #9db94b;
+    width: 40%;
+}
+.second-button{
+    background: transparent;
+    border: 7px solid #fff;
+    width: 40%;
+}
+.first-button:hover{
+    cursor: pointer;
+    background-color: #9db94b;
+    transition: .3s ease-in-out;
+}
+.second-button:hover{
+    cursor: pointer;
+    border: 7px solid #45C8FF;
+    background-color: #45C8FF;
+    transition: .3s ease-in-out;
+}
+.second-button:hover p{
+color: black;
+}

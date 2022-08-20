@@ -85,6 +85,9 @@ a{
 .font-violet{
   color: #473174 !important;
 }
+.font-blue{
+  color: #45C8FF !important;
+}
 /* text */
 .text-upper{
   text-transform: uppercase;
