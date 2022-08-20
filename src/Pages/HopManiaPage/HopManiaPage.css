@@ -9,3 +9,7 @@
 .hm-info-2{
     background-color: rgba(69, 200, 255, 0.5);
 }
+.hop-mania-advantege{
+    overflow-x: auto;
+    overflow-wrap: break-word;
+}
