@@ -13,8 +13,8 @@ export default function TopNavbar() {
         <Link to="/faq" className='font-15 text-upper font-montserrat-medium'>faq</Link>
         <a href={regulaminUrodzinowy} target="_blank" rel="noreferrer" className='font-15 text-upper font-montserrat-medium'>regulamin urodzin</a>
         <Link to="/hop-mania" className='font-15 text-upper font-montserrat-medium'>hopmania</Link>
-        <a href="#" className='font-15 text-upper font-montserrat-medium'>Atrakcje</a>
-        <Link to="/contact" className='font-15 text-upper font-montserrat-medium'>Kontakt</Link>
+        <Link to="/atrakcje" className='font-15 text-upper font-montserrat-medium'>Atrakcje</Link>
+        <Link to="/kontakt" className='font-15 text-upper font-montserrat-medium'>Kontakt</Link>
     </header>
   )
 }

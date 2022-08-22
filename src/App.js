@@ -8,6 +8,7 @@ import {
 import FaqPage from './Pages/FaqPage/FaqPage';
 import HopManiaPage from './Pages/HopManiaPage/HopManiaPage';
 import ContactPage from './Pages/ContactPage/ContactPage';
+import AttractionsPage from './Pages/AttractionsPage/AttractionsPage';
 function App() {
   return (
     <div className="App">
@@ -16,7 +17,8 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/faq" element={<FaqPage />} />
         <Route path="/hop-mania" element={<HopManiaPage />} />
-        <Route path="/contact" element={<ContactPage />} />
+        <Route path="/kontakt" element={<ContactPage />} />
+        <Route path="/atrakcje" element={<AttractionsPage />} />
       </Routes>
     </BrowserRouter>
     </div>
