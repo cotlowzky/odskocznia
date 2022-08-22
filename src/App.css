@@ -191,6 +191,15 @@ a{
 .m-1{
   margin: 1%;
 }
+.m-2updwn{
+  margin: 2% 0;
+}
+.m-3updwn{
+  margin: 3% 0;
+}
+.m-3up{
+  margin: 3% 0 0 0;
+}
 .m-3lftrght{
   margin: 0 3%;
 }

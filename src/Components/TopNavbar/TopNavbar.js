@@ -14,7 +14,7 @@ export default function TopNavbar() {
         <a href={regulaminUrodzinowy} target="_blank" rel="noreferrer" className='font-15 text-upper font-montserrat-medium'>regulamin urodzin</a>
         <Link to="/hop-mania" className='font-15 text-upper font-montserrat-medium'>hopmania</Link>
         <a href="#" className='font-15 text-upper font-montserrat-medium'>Atrakcje</a>
-        <a href="#" className='font-15 text-upper font-montserrat-medium'>Kontakt</a>
+        <Link to="/contact" className='font-15 text-upper font-montserrat-medium'>Kontakt</Link>
     </header>
   )
 }
