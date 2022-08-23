@@ -40,7 +40,7 @@ function HopManiaPage() {
             <p className='text-small-caps font-montserrat-regular font-yellow font-32 m-3'>
                 Co zyskujesz dołączając do HopManii?
             </p>
-            <div className='flex-row hop-mania-advantege 2-100 m-3lftrght'>
+            <div className='flex-row hop-mania-advantege m-3lftrght'>
                 <div className='hop-mania-info p-3 flex-center  hm-info-1'>
                         <p className='p-1 text-center text-small-caps font-white font-18 font-montserrat-medium'>Karta HopManii upoważnia do zniżek na bilety do Hoplandii i Odskoczni - cennik</p> 
                 </div>
@@ -51,7 +51,7 @@ function HopManiaPage() {
                         <p className='p-1 text-center text-small-caps font-white font-18 font-montserrat-medium'>Tylko HopManiacy mogą korzystać z dodatkowych zniżek przy organizacji urodzin</p> 
                 </div>
                 <div className='hop-mania-info p-3 flex-center hm-info-2 m-3lftrght w-33 text-wrap'>
-                        <p className='p-1 text-center text-small-caps font-white font-18 font-montserrat-medium  h-15'>Tylko HopManiacy otrzymują kartę członkowską (jedna karta upoważnia do korzystania z promocji w Hoplandii, Odskoczni, Parku Linowym KanYon i Chacie Zagadek).</p> 
+                        <p className='p-1 text-center text-small-caps font-white font-18 font-montserrat-medium'>Tylko HopManiacy otrzymują kartę członkowską (jedna karta upoważnia do korzystania z promocji w Hoplandii, Odskoczni, Parku Linowym KanYon i Chacie Zagadek).</p> 
                 </div>
             </div>
             <div>
