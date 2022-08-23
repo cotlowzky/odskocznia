@@ -28,6 +28,11 @@ function HomePage() {
                 </div>
           </div>
         </div>
+        <div className='flex-row m-3'>
+          <CategoryComponent  name="Jesteśmy otwarci od 10-20"/>
+          <CategoryComponent  name="ul. Kowalczyków 60, 45-594 Opole"/>
+          <CategoryComponent  name="733 608 80 80"/>
+        </div>
         <div className='home-image'></div>
         <div>
           <p className='font-white font-montserrat-semi-bold m-3 font-20'>Park trampolin na Opolszczyźnie. <span className='text-upper'>odskocznia</span> w Opolu zaprasza. 1200m2 atrakcji i miejsca do zabawy i aktywnego spędzania czasu. Trampoliny klasyczne, skośne, olimpijskie, arena dodgeball, strefa ninja, wieża do skoków na dmuchana poduchę, baseny z gąbkami, kosze do wsadów z trampolin.

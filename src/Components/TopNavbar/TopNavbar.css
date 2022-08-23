@@ -1,6 +1,9 @@
 .background-navbar{
     background-color: #473174;
     margin: 0 auto 2% auto;
+    position: fixed;
+    top:0;
+    left:15%;
 }
 .background-navbar a:hover{
     border-bottom: solid #322350 3px;
