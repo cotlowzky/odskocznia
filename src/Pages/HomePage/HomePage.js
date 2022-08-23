@@ -5,46 +5,27 @@ import './HomePage.css'
 function HomePage() {
   document.title = "Odskocznia - Strona główna"
   return (
-      <div className='background w-100'>
-        <TopNavbar />
-        <div className='background-hero flex-row'>
-          <div className='h-95 w-50 flex-column flex-center'>
-            <div className='m-1'>
-              <span className='font-montserrat-medium font-white font-64 m-title text-shadow'>Z</span>
-              <span className='font-montserrat-medium font-white font-64 m-title text-shadow'>A</span>
-              <span className='font-montserrat-medium font-white font-64 m-title text-shadow'>P</span>
-              <span className='font-montserrat-medium font-white font-64 m-title text-shadow'>R</span>
-              <span className='font-montserrat-medium font-white font-64 m-title text-shadow'>A</span>
-              <span className='font-montserrat-medium font-white font-64 m-title text-shadow'>S</span>
-              <span className='font-montserrat-medium font-white font-64 m-title text-shadow'>Z</span>
-              <span className='font-montserrat-medium font-white font-64 m-title text-shadow'>A</span>
-              <span className='font-montserrat-medium font-white font-64 m-title text-shadow'>M</span>
-              <span className='font-montserrat-medium font-white font-64 m-title text-shadow'>Y</span>
+      <div className='background w-100 '>
+        <div className='hero-image h-100'>
+          <TopNavbar />
+          <div className='background-hero flex-row'>
+            <div className='h-80 w-70 flex-column flex-end'>
+              <div className='m-3updwn'>
+                  <h2 className='font-montserrat-medium font-white font-32 m-3lftrght text-shadow text-small-caps'>Największy park trampolin na Opolszczyźnie</h2>
+                  <span className='text-upper font-82 m-3lftrght font-white font-montserrat-semi-bold'>odskocznia</span>
+              </div>
             </div>
-            <h2 className='font-lato-bold font-white font-38 m-1 text-shadow'>Jesteśmy otwarci codziennie od 10 do 20</h2>
-            <div className='flex-column m-1 flex-center'>
-              <button className='button button-first p-3 m-1'>
-                <p className='font-montserrat-regular font-15 font-black'>kup/zarezerwuj bilet</p>
-              </button>
-              <button className='button button-second p-3 m-1'>
-                <p className='font-montserrat-regular font-15 '>sprawdz zasady bezpieczeństwa</p>
-              </button>
-              <button className='button button-first p-3 m-1'>
-                <p className='font-montserrat-regular font-15 font-black'>od poniedziałku do piatku w godz. 8:00 - 15:30 zapraszamy grupy zorganizowane <br />(min. 10 osób)</p>
-              </button>
-            </div>
-          </div>
-          <div className='h-95 w-50 hero-image flex-row'>
-            <div className='bar'></div>
-            <div className='bar'></div>
-            <div className='bar'></div>
-            <div className='bar'></div>
-            <div className='bar'></div>
-            <div className='bar'></div>
-            <div className='bar'></div>
-            <div className='bar'></div>
-            <div className='bar'></div>
-            <div className='bar'></div>
+             <div className='h-80 w-30 flex-column flex-end'>
+                  <button className='button button-first p-3 m-1'>
+                    <p className='font-montserrat-regular font-15 font-black'>kup/zarezerwuj bilet</p>
+                  </button>
+                  <button className='button button-second p-3 m-1'>
+                    <p className='font-montserrat-regular font-15 '>sprawdz zasady bezpieczeństwa</p>
+                  </button>
+                  <button className='button button-first p-3 m-1'>
+                    <p className='font-montserrat-regular font-15 font-black'>od poniedziałku do piatku w godz. 8:00 - 15:30 zapraszamy grupy zorganizowane <br />(min. 10 osób)</p>
+                  </button>
+                </div>
           </div>
         </div>
         <div className='home-image'></div>

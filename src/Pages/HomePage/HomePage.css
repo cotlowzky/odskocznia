@@ -1,5 +1,5 @@
 .hero-image{
-    background-image: url('../../assets/img/hero-image-1.jpg');
+    background-image: url('../../assets/img/hero-image.jpg');
     background-size: cover;
 }
 .bar{
@@ -60,9 +60,11 @@
   }
   .button-first{
     background-color: #CDCC1C;
-    border:none
+    border:none;
+    width:80%;
   }
   .button-second{
     background-color: #473174;
-    border:none
+    border:none;
+    width:80%;
   }
