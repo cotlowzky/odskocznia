@@ -1,4 +1,5 @@
 import React from 'react'
+import AttractionComponent from '../../Components/AttractionComponent/AttractionComponent'
 import TopNavbar from '../../Components/TopNavbar/TopNavbar'
 
 function AttractionsPage() {
@@ -15,6 +16,13 @@ function AttractionsPage() {
             <p className='text-small-caps font-montserrat-medium font-yellow font-15'>
                 Przekonajcie się sami, odwiedzając nas w Opolu
             </p>
+            <div className=' flex-center flex-column'>
+            <AttractionComponent name="Arena główna z trampolinami poziomymi i basenami z gąbkami"/>
+            <AttractionComponent name="Arena dodgeball z arenami skośnymi"/>
+            <AttractionComponent name="Strefa kangura z trampolinami olimpijskimi, wieżą i dmuchaną poduszką"/>
+            <AttractionComponent name="Strefa ninja"/>
+
+            </div>
         </div>
     </div>
   )

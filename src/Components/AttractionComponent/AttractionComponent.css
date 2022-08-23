@@ -1,0 +1,14 @@
+.attraction-image{
+    background-color: #d3d3d3;
+    height: 200px;
+    width:200px;
+    border-radius: 100%;
+}
+.attraction-wrapper{
+    margin:2% 3%;
+    width:70%;
+    align-items: center;
+}
+.attraction-font{
+    width:60%
+}
