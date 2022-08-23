@@ -79,7 +79,7 @@ function ContactPage() {
                 </div>
             </div>
         </div>
-          <p className='font-white font-montserrat-medium font-15'>
+          <p className='font-white font-montserrat-medium font-15 footer'>
             &copy; FILIP KOTŁOWSKI 2022 ALL RIGHT RESERVED
           </p>
     </div>
