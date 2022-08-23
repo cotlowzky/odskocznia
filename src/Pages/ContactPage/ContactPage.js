@@ -3,7 +3,7 @@ import TopNavbar from '../../Components/TopNavbar/TopNavbar'
 function ContactPage() {
     document.title = "Odskocznia - Kontakt"
   return (
-    <div className='background h-100'>
+    <div className='background h-100 p-5up'>
         <TopNavbar />
         <div className='m-3'>
             <h2 className='text-small-caps font-montserrat-medium font-white font-38 text-shadow'>

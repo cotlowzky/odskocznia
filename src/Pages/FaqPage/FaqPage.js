@@ -30,7 +30,7 @@ function FaqPage() {
       });
   })
   return (
-    <div className='background'>
+    <div className='background p-5up'>
         <TopNavbar />
         <div className='m-3'>
             <h2 className='text-upper font-montserrat-medium font-white font-38 text-shadow'>

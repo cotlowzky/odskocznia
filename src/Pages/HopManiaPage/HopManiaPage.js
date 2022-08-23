@@ -5,7 +5,7 @@ import kdr from "../../assets/img/kdr.png"
 function HopManiaPage() {
     document.title = "Odskocznia - HopMania"
   return (
-    <div className='background'>
+    <div className='background p-5up'>
         <TopNavbar />
         <div className='m-3'>
             <h2 className='text-small-caps font-montserrat-medium font-white font-38 text-shadow'>
