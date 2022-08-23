@@ -8,7 +8,7 @@ export default function TopNavbar() {
   return (
     <header className='flex-row flex-justify-around h-5 background-navbar flex-items-center w-70 shadow p-2'>
         <Link to="/" className='font-15 text-upper font-montserrat-medium'>logo</Link>
-        <a href="#" className='font-15 text-upper font-montserrat-medium'>zasady bezpieczeństwa</a>
+        <Link to="/zasady" className='font-15 text-upper font-montserrat-medium'>zasady bezpieczeństwa</Link>
         <a href={regulamin} target="_blank" rel="noreferrer" className='font-15 text-upper font-montserrat-medium'>regulamin</a>
         <Link to="/faq" className='font-15 text-upper font-montserrat-medium'>faq</Link>
         <a href={regulaminUrodzinowy} target="_blank" rel="noreferrer" className='font-15 text-upper font-montserrat-medium'>regulamin urodzin</a>
