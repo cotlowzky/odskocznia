@@ -24,6 +24,9 @@ function AttractionsPage() {
 
             </div>
         </div>
+          <p className='font-white font-montserrat-medium font-15'>
+            &copy; FILIP KOTŁOWSKI 2022 ALL RIGHT RESERVED
+          </p>
     </div>
   )
 }

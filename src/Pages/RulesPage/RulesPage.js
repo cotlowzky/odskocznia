@@ -3,7 +3,7 @@ import TopNavbar from '../../Components/TopNavbar/TopNavbar'
 
 function RulesPage() {
   return (
-    <div className='background h-100 p-5up'>
+    <div className='background h-minc p-5up'>
         <TopNavbar />
         <div className='m-3'>
             <h2 className='text-small-caps font-montserrat-medium font-white font-38 text-shadow'>
@@ -58,6 +58,9 @@ function RulesPage() {
                 Dorośli powinni zachować odstęp 2 m odległości od siebie (stoliki są przesunięte w odpowiedniej odległości)
             </p>
         </div>
+            <p className='font-white font-montserrat-medium font-15'>
+            &copy; FILIP KOTŁOWSKI 2022 ALL RIGHT RESERVED
+            </p>
     </div>
   )
 }

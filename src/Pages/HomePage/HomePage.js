@@ -60,7 +60,9 @@ function HomePage() {
               <button className='hopmania-button p-2 m-3'><p className='font-white font-montserrat-semi-bold text-upper'>dowiedz się więcej</p></button>
             </div>
           </div>
-          <p>&copy; FILIP KOTŁOWSKI 2022 ALL RIGHT RESERVED</p>
+          <p className='font-white font-montserrat-medium font-15'>
+            &copy; FILIP KOTŁOWSKI 2022 ALL RIGHT RESERVED
+          </p>
         </div>
       </div>
   )

@@ -47,6 +47,9 @@ function FaqPage() {
             <FaqComponentQ onClick={(e)=>showQuestion(e,'q5')} question="Czy można u was kupić skarpetki antypoślizgowe?"/>
             <FaqComponentA answer="Oczywiście. Skarpetki są do nabycia na miejscu w cenie 10 zł." />
         </div>
+          <p className='font-white font-montserrat-medium font-15'>
+            &copy; FILIP KOTŁOWSKI 2022 ALL RIGHT RESERVED
+          </p>
     </div>
   )
 }

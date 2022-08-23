@@ -73,7 +73,9 @@ function HopManiaPage() {
                     <p className='text-small-caps font-montserrat-semi-bold font-white font-38 text-center'>Masz pytania? Zadzwoń - Tel.733 60 80 80!</p>
                 </div>
             </div>
-          <p>&copy; FILIP KOTŁOWSKI 2022 ALL RIGHT RESERVED</p>    
+        <p className='font-white font-montserrat-medium font-15'>
+            &copy; FILIP KOTŁOWSKI 2022 ALL RIGHT RESERVED
+          </p>  
     </div>
   )
 }
