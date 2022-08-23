@@ -34,7 +34,7 @@ function HopManiaPage() {
                     <p className='p-1 text-center text-small-caps font-violet font-20 font-montserrat-medium'>Urodziny w Odskoczni już od 45 zł!</p> 
                     <p className='p-1 text-center font-yellow font-15 font-lato-regular'>Tylko dla Klubowiczów HopMania</p> 
                 </div>
-                <img src={kdr} as="Karta Dużej Rodziny"/>
+                <img src={kdr} alt="Karta Dużej Rodziny" />
                 <p className='font-white font-montserrat-medium font-32 m-1updwn'>Honorujemy Kartę Dużej Rodziny</p>
             </div>
             <p className='text-small-caps font-montserrat-regular font-yellow font-32 m-3'>

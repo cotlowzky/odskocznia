@@ -2,6 +2,7 @@ import React from 'react'
 import CategoryComponent from '../../Components/CategoryComponent/CategoryComponent'
 import TopNavbar from '../../Components/TopNavbar/TopNavbar'
 import './HomePage.css'
+import {faDoorOpen, faLocationDot, faPhone, faFileMedical, faQuestion, faShieldBlank, faFileLines,faFile} from '@fortawesome/free-solid-svg-icons'
 function HomePage() {
   document.title = "Odskocznia - Strona główna"
   return (
@@ -29,9 +30,9 @@ function HomePage() {
           </div>
         </div>
         <div className='flex-row m-3'>
-          <CategoryComponent  name="Jesteśmy otwarci od 10-20"/>
-          <CategoryComponent  name="ul. Kowalczyków 60, 45-594 Opole"/>
-          <CategoryComponent  name="733 608 80 80"/>
+          <CategoryComponent  name="Jesteśmy otwarci od 10-20" icon={faDoorOpen}/>
+          <CategoryComponent  name="ul. Kowalczyków 60, 45-594 Opole"  icon={faLocationDot}/>
+          <CategoryComponent  name="733 608 80 80" icon={faPhone}/>
         </div>
         <div className='home-image'></div>
         <div>
@@ -40,20 +41,20 @@ function HomePage() {
           <div className='w-100 flex-row flex-center'>
               <div className='flex-row w-80  m-3'>
                 <div className='w-33 flex-column flex-center'>
-                  <CategoryComponent name="zasady bezpieczeństwa"/>
-                  <CategoryComponent name="zgoda rodzica pdf"/>
+                  <CategoryComponent name="zasady bezpieczeństwa" icon={faShieldBlank}/>
+                  <CategoryComponent name="zgoda rodzica pdf" icon={faFileMedical}/>
                 </div>
                 <div className='w-33 flex-column flex-center'>
-                  <CategoryComponent name="regulamin"/>
-                  <CategoryComponent name="regulamin urodzin"/>
+                  <CategoryComponent name="regulamin" icon={faFile}/>
+                  <CategoryComponent name="regulamin urodzin" icon={faFile}/>
                 </div>
                 <div className='w-33 flex-column flex-center'>
-                  <CategoryComponent name="pytania i odpowiedzi"/>
-                  <CategoryComponent name="zgoda grupowa pdf"/>
+                  <CategoryComponent name="pytania i odpowiedzi" icon={faQuestion}/>
+                  <CategoryComponent name="zgoda grupowa pdf" icon={faFileLines}/>
                 </div>
             </div>
           </div>
-          <div className='hopmania-wrapper h-30 flex-column flex-center'>
+          <div className='hopmania-wrapper h-60 flex-column flex-center'>
             <div className='hopmania-inner-wrapper flex-column flex-center'>
               <p className='font-black font-montserrat-semi-bold font-38 text-upper text-center'>dołącz do klubu hopmaniaków i skorzystaj z mega promocji!</p>
               <button className='hopmania-button p-2 m-3'><p className='font-white font-montserrat-semi-bold text-upper'>dowiedz się więcej</p></button>

@@ -8,10 +8,19 @@
 .category-wrapper:hover{
     cursor: pointer;
 }
+.category-icon-wrapper{
+    height: 80px;
+    width: 80px;
+    background-color: #45C8FF;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .category-icon{
-    height: 60px;
-    width: 60px;
-    background-color: blanchedalmond;
+    height: 40px;
+    width: 40px;
+    color: #fff;
 }
 .category-name{
     text-align: center;
