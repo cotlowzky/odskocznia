@@ -10,13 +10,13 @@ function HomePage() {
         <div className='hero-image h-100'>
           <TopNavbar />
           <div className='background-hero flex-row'>
-            <div className='h-80 w-70 flex-column flex-end'>
+            <div className='h-80 w-70 flex-column flex-end hero-title'>
               <div className='m-3updwn'>
                   <h2 className='font-montserrat-medium font-white font-32 m-3lftrght text-shadow text-small-caps'>Największy park trampolin na Opolszczyźnie</h2>
                   <span className='text-upper font-82 m-3lftrght font-white font-montserrat-semi-bold'>odskocznia</span>
               </div>
             </div>
-             <div className='h-80 w-30 flex-column flex-end'>
+             <div className='h-80 w-30 flex-column flex-end hero-buttons'>
                   <button className='button button-first p-3 m-1'>
                     <p className='font-montserrat-regular font-15 font-white text-shadow'>kup/zarezerwuj bilet</p>
                   </button>

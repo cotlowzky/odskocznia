@@ -6,7 +6,7 @@ import regulaminUrodzinowy from '../../assets/pdf/regulamin-urodzinowy.pdf'
 import logo from '../../assets/img/logo.png'
 export default function TopNavbar() {
   return (
-    <header className='flex-row flex-justify-around h-5 background-navbar flex-items-center w-70 shadow p-2'>
+    <header className='flex-row flex-justify-around h-5 background-navbar flex-items-center w-70 shadow p-2 navbar-wrapper'>
         <Link to="/" className='font-15 text-upper font-montserrat-medium'>
           <img src={logo} height="50px" alt="odskocznia logo"/>
         </Link>

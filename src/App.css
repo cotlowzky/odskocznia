@@ -294,3 +294,49 @@ a{
   font-size: calc(15px * 0.8);
 }
 }
+/* resposive 375 */
+@media only screen and (max-width: 375px) {
+   
+.font-82{
+  font-size: calc(82px * 0.5);
+}
+.font-64{
+  font-size: calc(64px * 0.5);
+}
+.font-38{
+  font-size: calc(38px * 0.5);
+}
+.font-32{
+  font-size: calc(32px * 0.5);
+}
+.font-26{
+  font-size: calc(26px * 0.5);
+}
+.font-20{
+  font-size: calc(20px * 0.5);
+}
+.font-18{
+  font-size: calc(18px * 0.5);
+}
+.font-15{
+  font-size: calc(15px * 0.6);
+}
+  .background-hero{
+    flex-direction: column !important;
+    height: 100vh;
+  }
+  .hero-buttons{
+    width:100vw;
+    height: 50vh;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .hero-title{
+    width:100vw;
+    height: 50vh;
+  }
+  .background-navbar{
+    display: none;
+  }
+}
+  
