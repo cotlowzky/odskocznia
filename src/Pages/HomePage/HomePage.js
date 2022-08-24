@@ -18,13 +18,13 @@ function HomePage() {
             </div>
              <div className='h-80 w-30 flex-column flex-end hero-buttons'>
                   <button className='button button-first p-3 m-1'>
-                    <p className='font-montserrat-regular font-15 font-white text-shadow'>kup/zarezerwuj bilet</p>
+                    <p className='font-montserrat-regular font-15 font-white text-shadow text-upper'>kup/zarezerwuj bilet</p>
                   </button>
                   <button className='button button-second p-3 m-1'>
-                    <p className='font-montserrat-regular font-15 font-white text-shadow'>sprawdz zasady bezpieczeństwa</p>
+                    <p className='font-montserrat-regular font-15 font-white text-shadow text-upper'>sprawdz zasady bezpieczeństwa</p>
                   </button>
                   <button className='button button-first p-3 m-1'>
-                    <p className='font-montserrat-regular font-15 font-white text-shadow'>od poniedziałku do piatku w godz. 8:00 - 15:30 zapraszamy grupy zorganizowane <br />(min. 10 osób)</p>
+                    <p className='font-montserrat-regular font-15 font-white text-shadow text-upper'>od poniedziałku do piatku w godz. 8:00 - 15:30 zapraszamy grupy zorganizowane <br />(min. 10 osób)</p>
                   </button>
                 </div>
           </div>
