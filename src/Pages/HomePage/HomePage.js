@@ -29,7 +29,7 @@ function HomePage() {
                 </div>
           </div>
         </div>
-        <div className='flex-row m-3'>
+        <div className='flex-row m-3 info-wrapper'>
           <CategoryComponent  name="Jesteśmy otwarci od 10-20" icon={faDoorOpen}/>
           <CategoryComponent  name="ul. Kowalczyków 60, 45-594 Opole"  icon={faLocationDot}/>
           <CategoryComponent  name="733 608 80 80" icon={faPhone}/>
@@ -38,17 +38,17 @@ function HomePage() {
         <div>
           <p className='font-white font-montserrat-semi-bold m-3 font-20'>Park trampolin na Opolszczyźnie. <span className='text-upper'>odskocznia</span> w Opolu zaprasza. 1200m2 atrakcji i miejsca do zabawy i aktywnego spędzania czasu. Trampoliny klasyczne, skośne, olimpijskie, arena dodgeball, strefa ninja, wieża do skoków na dmuchana poduchę, baseny z gąbkami, kosze do wsadów z trampolin.
           </p>
-          <div className='w-100 flex-row flex-center'>
-              <div className='flex-row w-80  m-3'>
-                <div className='w-33 flex-column flex-center'>
+          <div className='w-100 flex-row flex-center '>
+              <div className='flex-row w-80  m-3 categories-wrapper'>
+                <div className='w-33 flex-column flex-center db-category'>
                   <CategoryComponent name="zasady bezpieczeństwa" icon={faShieldBlank}/>
                   <CategoryComponent name="zgoda rodzica pdf" icon={faFileMedical}/>
                 </div>
-                <div className='w-33 flex-column flex-center'>
+                <div className='w-33 flex-column flex-center db-category'>
                   <CategoryComponent name="regulamin" icon={faFile}/>
                   <CategoryComponent name="regulamin urodzin" icon={faFile}/>
                 </div>
-                <div className='w-33 flex-column flex-center'>
+                <div className='w-33 flex-column flex-center db-category'>
                   <CategoryComponent name="pytania i odpowiedzi" icon={faQuestion}/>
                   <CategoryComponent name="zgoda grupowa pdf" icon={faFileLines}/>
                 </div>
