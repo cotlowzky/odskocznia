@@ -299,7 +299,7 @@ a{
 }
 }
 /* resposive 375 */
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 428px) {
    
 .font-82{
   font-size: calc(82px * 0.5);
