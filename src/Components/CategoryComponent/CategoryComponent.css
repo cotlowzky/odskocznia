@@ -4,9 +4,12 @@
     width:50%;
     margin:2.5%;
     border-radius: 10px;
+    box-shadow: 4px 4px 0px 3px #0000003b;
+    transition: 0.2s ease-in-out;
 }
 .category-wrapper:hover{
     cursor: pointer;
+    box-shadow: 0px 0px 0px 0px #0000003b;
 }
 .category-icon-wrapper{
     height: 80px;
