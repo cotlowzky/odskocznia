@@ -64,6 +64,13 @@
     width:80%;
     border-radius: 0;
   }
+  /* resposive 810 */
+  
+@media only screen and (max-width: 810px) {
+  .category-wrapper{
+    width: 80%;
+  }
+}
   /* resposive 375 */
   @media only screen and (max-width: 428px) {
     .info-wrapper{
