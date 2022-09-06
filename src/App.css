@@ -269,6 +269,9 @@ a{
 .overflow{
   overflow: hidden;
 }
+.display{
+  display: none;
+}
 /* buttons */
 .button{
   border:none;

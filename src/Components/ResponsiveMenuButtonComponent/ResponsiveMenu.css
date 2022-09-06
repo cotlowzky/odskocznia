@@ -3,7 +3,16 @@
     z-index: 99;
 }
 #responsive-menu{
-    display: none;
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        top:0;
+        left:0;
+        opacity: 0;
+        overflow-x: hidden;
+        transition: ease 0.5s all;
+        background-image: linear-gradient(to bottom,#a42256b0,#473174b0);
+        transform: translateY(-105%);
 }
 @media only screen and (max-width: 810px) {
     .menu-button-wrapper{
@@ -40,16 +49,7 @@
         transform: rotate(45deg);
     }
     .mobile-menu{
-        position: fixed;
-        height: 100%;
-        top:0;
-        left:0;
-        width: 100vw;
-        display: flex !important;
-        background-image: linear-gradient(to bottom,#a42256b0,#473174b0);
-    }
-    .mobile-menu-height{
-        height: 100vh;
-        transition: 0.3s;
+        transform: translateY(0%) !important;
+        opacity: 1 !important;
     }
 }

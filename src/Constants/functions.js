@@ -1,7 +1,7 @@
 export const openMenu = () => {
     const menu = document.querySelector("#responsive-menu");
+    const menuButton = document.querySelector(".menu-button-wrapper");
     menu.classList.toggle('mobile-menu');
-    console.log(menu.classList);
     document.body.classList.toggle('overflow')
-    menu.classList.toggle('mobile-menu-height');
+    menuButton.classList.toggle('display')
 }
