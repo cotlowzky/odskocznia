@@ -4,12 +4,14 @@ import TopNavbar from '../../Components/TopNavbar/TopNavbar'
 import './HomePage.css'
 import {faDoorOpen, faLocationDot, faPhone, faFileMedical, faQuestion, faShieldBlank, faFileLines,faFile} from '@fortawesome/free-solid-svg-icons'
 import ResponsiveMenuButtonComponent from '../../Components/ResponsiveMenuButtonComponent/ResponsiveMenuButtonComponent'
+import ResponsiveMenuComponent from '../../Components/ResponsiveMenuComponent/ResponsiveMenuComponent'
 function HomePage() {
   document.title = "Odskocznia - Strona główna"
   return (
       <div className='background w-100 '>
         <div className='hero-image h-100'>
           <ResponsiveMenuButtonComponent />
+          <ResponsiveMenuComponent />
           <TopNavbar />
           <div className='background-hero flex-row'>
             <div className='h-80 w-70 flex-column flex-end hero-title'>

@@ -217,6 +217,9 @@ a{
 .p-3{
   padding: 3%;
 }
+.p-30updwn{
+  padding: 30% 0;
+}
 .p-5up{
   padding: 5% 0 0 0;
 }
@@ -262,6 +265,9 @@ a{
 .visible{ 
   display: flex !important;
   opacity: 1 !important;
+}
+.overflow{
+  overflow: hidden;
 }
 /* buttons */
 .button{

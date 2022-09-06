@@ -1,9 +1,7 @@
 export const openMenu = () => {
-    const shortBar = document.querySelector('.short-bar');
-    const mediumBar = document.querySelector('.medium-bar');
-    const longBar = document.querySelector('.long-bar');
-
-    shortBar.classList.toggle('rotate-third-bar');
-    mediumBar.classList.toggle('rotate-second-bar');
-    longBar.classList.toggle('rotate-first-bar');
+    const menu = document.querySelector("#responsive-menu");
+    menu.classList.toggle('mobile-menu');
+    console.log(menu.classList);
+    document.body.classList.toggle('overflow')
+    menu.classList.toggle('mobile-menu-height');
 }
