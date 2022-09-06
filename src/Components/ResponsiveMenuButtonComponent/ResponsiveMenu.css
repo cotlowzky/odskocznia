@@ -1,0 +1,38 @@
+.menu-button-wrapper{
+    display: none;
+}
+@media only screen and (max-width: 810px) {
+    .menu-button-wrapper{
+        display: flex;
+        position: fixed;
+        top:5%;
+        right: 5%;
+        align-items: flex-end;
+    }
+    .menu-bar{
+        height: 3px;
+        background-image: linear-gradient(to right,#45C8FF,#cdcd1c);
+        margin-bottom: 6px;
+    }
+    .short-bar{
+        width:10px;
+    }
+    .medium-bar{
+        width:20px;
+    }
+    .long-bar{
+        width:30px;
+    }
+    .rotate-third-bar{
+        transform-origin: left top;
+        transform: rotate(-45deg);
+    }
+    .rotate-second-bar{
+        transform-origin: center top;
+        transform: rotate(-45deg);
+    }
+    .rotate-first-bar{
+        transform-origin: bottom left;
+        transform: rotate(45deg);
+    }
+}
