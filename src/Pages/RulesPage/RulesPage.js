@@ -1,10 +1,14 @@
 import React from 'react'
 import TopNavbar from '../../Components/TopNavbar/TopNavbar'
+import ResponsiveMenuButtonComponent from '../../Components/ResponsiveMenuButtonComponent/ResponsiveMenuButtonComponent'
+import ResponsiveMenuComponent from '../../Components/ResponsiveMenuComponent/ResponsiveMenuComponent'
 
 function RulesPage() {
   return (
     <div className='background h-minc p-5up'>
         <TopNavbar />
+    <ResponsiveMenuButtonComponent />
+    <ResponsiveMenuComponent />
         <div className='m-3'>
             <h2 className='text-small-caps font-montserrat-medium font-white font-38 text-shadow'>
                 Zasady Bezpieczeństwa

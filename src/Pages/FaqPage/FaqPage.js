@@ -3,6 +3,8 @@ import FaqComponentA from '../../Components/FaqComponentA/FaqComponentA';
 import FaqComponentQ from '../../Components/FaqComponentQ/FaqComponentQ';
 import TopNavbar from '../../Components/TopNavbar/TopNavbar';
 import './FaqPage.css';
+import ResponsiveMenuButtonComponent from '../../Components/ResponsiveMenuButtonComponent/ResponsiveMenuButtonComponent'
+import ResponsiveMenuComponent from '../../Components/ResponsiveMenuComponent/ResponsiveMenuComponent'
 function FaqPage() {
   document.title = "Odskocznia - FAQ";
     const allQuestions = {
@@ -31,6 +33,8 @@ function FaqPage() {
   })
   return (
     <div className='background p-5up'>
+        <ResponsiveMenuButtonComponent />
+        <ResponsiveMenuComponent />
         <TopNavbar />
         <div className='m-3'>
             <h2 className='text-upper font-montserrat-medium font-white font-38 text-shadow'>

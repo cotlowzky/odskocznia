@@ -9,9 +9,13 @@ import RopeFluo from '../../assets/img/atrakcje/lina.jpeg'
 import NinjaFluo from '../../assets/img/atrakcje/ninja.jpeg'
 import KangarooFluo from '../../assets/img/atrakcje/poducha.jpeg'
 import OIFluo from '../../assets/img/atrakcje/trampoliny-olimpijskie.jpeg'
+import ResponsiveMenuButtonComponent from '../../Components/ResponsiveMenuButtonComponent/ResponsiveMenuButtonComponent'
+import ResponsiveMenuComponent from '../../Components/ResponsiveMenuComponent/ResponsiveMenuComponent'
 function AttractionsPage() {
   return (
     <div className='background p-5up'>
+    <ResponsiveMenuButtonComponent />
+    <ResponsiveMenuComponent />
         <TopNavbar />
         <div className='m-3'>
             <h2 className='text-small-caps font-montserrat-medium font-white font-38 text-shadow'>
