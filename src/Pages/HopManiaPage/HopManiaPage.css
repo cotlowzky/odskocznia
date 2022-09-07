@@ -40,3 +40,41 @@
 .second-button:hover p{
 color: black;
 }
+
+@media only screen and (max-width: 810px) {
+    .background{
+        height: max-content;
+    }
+    .font-38{
+        font-size: 2.5em;
+    }
+    .font-15{
+        font-size: 1em;
+    }
+    .hop-mania-advantege{
+        flex-direction: column;
+        align-items: center;
+    }
+    .hop-mania-info{
+        width: 85%;
+        margin-bottom: 2%;
+    }
+    .hop-mania-info:first-of-type{
+        margin: 0 3% 2% 3%;
+    }
+    .hop-mania-info p{
+        font-size: 0.9em;
+    }
+    button{
+        border-width: 3px!important;
+    }
+    button p{
+        font-size: .9em !important;
+    }
+    .telephone{
+        font-size: 1.7em!important;
+    }
+    .footer{
+        font-size: 0.8em;
+    }
+}

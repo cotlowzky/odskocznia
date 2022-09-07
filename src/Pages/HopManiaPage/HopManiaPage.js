@@ -74,10 +74,10 @@ function HopManiaPage() {
                     <button className='second-button p-2'><p className='font-white font-montserrat-medium text-small-caps font-18'>Jeszcze nie chce, chce przeczytać regulamin</p></button>
                 </div>
                 <div className='background-tel p-3'>
-                    <p className='text-small-caps font-montserrat-semi-bold font-white font-38 text-center'>Masz pytania? Zadzwoń - Tel.733 60 80 80!</p>
+                    <p className='telephone text-small-caps font-montserrat-semi-bold font-white font-38 text-center'>Masz pytania? Zadzwoń - Tel.733 60 80 80!</p>
                 </div>
             </div>
-        <p className='font-white font-montserrat-medium font-15'>
+        <p className='font-white font-montserrat-medium font-15 footer'>
             &copy; FILIP KOTŁOWSKI 2022 ALL RIGHT RESERVED
           </p>  
     </div>
