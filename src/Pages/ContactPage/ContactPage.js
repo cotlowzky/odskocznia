@@ -2,6 +2,7 @@ import React from 'react'
 import TopNavbar from '../../Components/TopNavbar/TopNavbar'
 import ResponsiveMenuButtonComponent from '../../Components/ResponsiveMenuButtonComponent/ResponsiveMenuButtonComponent'
 import ResponsiveMenuComponent from '../../Components/ResponsiveMenuComponent/ResponsiveMenuComponent'
+import './ContactPage.css'
 function ContactPage() {
     document.title = "Odskocznia - Kontakt"
   return (
@@ -13,8 +14,8 @@ function ContactPage() {
             <h2 className='text-small-caps font-montserrat-medium font-white font-38 text-shadow'>
                 Kontakt
             </h2>
-            <div className='flex-row'>
-                <div className='w-50 p-2'>
+            <div className='flex-row contact-wrapper'>
+                <div className='w-50 p-2 contact-sections'>
                     <p className='text-small-caps font-montserrat-regular font-white font-20'>
                         Masz pytania? Skontaktuj się z nami za pomocą formularza lub po prostu zadzwoń.
                     </p>
@@ -46,7 +47,7 @@ function ContactPage() {
                          Numer konta: PKO BP 28 1020 3668 0000 5102 0562 3089
                     </p>
                 </div>
-                <div className='w-50 p-1'>
+                <div className='w-50 p-1 contact-sections second-contact-section'>
                     <h3 className='text-small-caps font-montserrat-regular font-yellow font-38'>
                         Zapraszamy
                     </h3>
