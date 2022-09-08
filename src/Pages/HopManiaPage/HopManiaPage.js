@@ -5,6 +5,7 @@ import kdr from "../../assets/img/kdr.png"
 import ResponsiveMenuButtonComponent from '../../Components/ResponsiveMenuButtonComponent/ResponsiveMenuButtonComponent'
 import ResponsiveMenuComponent from '../../Components/ResponsiveMenuComponent/ResponsiveMenuComponent'
 function HopManiaPage() {
+    document.body.classList.remove('overflow')
     document.title = "Odskocznia - HopMania"
   return (
     <div className='background p-5up'>

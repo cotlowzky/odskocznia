@@ -6,9 +6,10 @@ import {faDoorOpen, faLocationDot, faPhone, faFileMedical, faQuestion, faShieldB
 import ResponsiveMenuButtonComponent from '../../Components/ResponsiveMenuButtonComponent/ResponsiveMenuButtonComponent'
 import ResponsiveMenuComponent from '../../Components/ResponsiveMenuComponent/ResponsiveMenuComponent'
 function HomePage() {
+  document.body.classList.remove('overflow')
   document.title = "Odskocznia - Strona główna"
   return (
-      <div className='background w-100 '>
+      <div className='background w-100 background-home-page'>
         <div className='hero-image h-100'>
           <ResponsiveMenuButtonComponent />
           <ResponsiveMenuComponent />

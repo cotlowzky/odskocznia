@@ -4,6 +4,7 @@ import ResponsiveMenuButtonComponent from '../../Components/ResponsiveMenuButton
 import ResponsiveMenuComponent from '../../Components/ResponsiveMenuComponent/ResponsiveMenuComponent'
 import './ContactPage.css'
 function ContactPage() {
+    document.body.classList.remove('overflow')
     document.title = "Odskocznia - Kontakt"
   return (
     <div className='background h-100 p-5up'>

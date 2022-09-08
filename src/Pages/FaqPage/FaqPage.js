@@ -6,13 +6,26 @@ import './FaqPage.css';
 import ResponsiveMenuButtonComponent from '../../Components/ResponsiveMenuButtonComponent/ResponsiveMenuButtonComponent'
 import ResponsiveMenuComponent from '../../Components/ResponsiveMenuComponent/ResponsiveMenuComponent'
 function FaqPage() {
+  document.body.classList.remove('overflow')
   document.title = "Odskocznia - FAQ";
     const allQuestions = {
       q1:false,
       q2:false,
       q3:false,
       q4:false,
-      q5:false
+      q5:false,
+      q6:false,
+      q7:false,
+      q8:false,
+      q9:false,
+      q10:false,
+      q11:false,
+      q12:false,
+      q13:false,
+      q14:false,
+      q15:false,
+      q16:false,
+      q17:false,
     }
     const [shownQuestions, setShownQuestions] = useState(allQuestions);
     const showQuestion = (event,key)=>{

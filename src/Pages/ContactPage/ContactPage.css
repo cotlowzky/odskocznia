@@ -16,7 +16,7 @@
         position: unset;
     }
     .background{
-        height: auto;
+        height: max-content;
         padding:15% 0 0 0;
     }
     .contact-sections p{

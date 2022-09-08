@@ -4,6 +4,7 @@ import ResponsiveMenuButtonComponent from '../../Components/ResponsiveMenuButton
 import ResponsiveMenuComponent from '../../Components/ResponsiveMenuComponent/ResponsiveMenuComponent'
 import './RulesPage.css'
 function RulesPage() {
+    document.body.classList.remove('overflow')
   return (
     <div className='background h-minc p-5up'>
         <TopNavbar />

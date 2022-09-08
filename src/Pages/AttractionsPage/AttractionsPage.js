@@ -12,6 +12,7 @@ import OIFluo from '../../assets/img/atrakcje/trampoliny-olimpijskie.jpeg'
 import ResponsiveMenuButtonComponent from '../../Components/ResponsiveMenuButtonComponent/ResponsiveMenuButtonComponent'
 import ResponsiveMenuComponent from '../../Components/ResponsiveMenuComponent/ResponsiveMenuComponent'
 function AttractionsPage() {
+  document.body.classList.remove('overflow')
   return (
     <div className='background p-5up'>
     <ResponsiveMenuButtonComponent />

@@ -70,8 +70,8 @@
   .category-wrapper{
     width: 80%;
   }
-  .background{
-    margin-top: -15%;
+  .background-home-page{
+    margin-top: -15% !important;
   }
   .hop-mania-text{
     font-size: 1.6em!important;
