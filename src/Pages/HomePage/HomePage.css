@@ -73,6 +73,9 @@
   .background{
     margin-top: -15%;
   }
+  .hop-mania-text{
+    font-size: 1.6em!important;
+  }
 }
   /* resposive 375 */
   @media only screen and (max-width: 428px) {

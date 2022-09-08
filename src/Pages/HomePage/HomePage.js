@@ -60,7 +60,7 @@ function HomePage() {
           </div>
           <div className='hopmania-wrapper h-60 flex-column flex-center'>
             <div className='hopmania-inner-wrapper flex-column flex-center'>
-              <p className='font-black font-montserrat-semi-bold font-38 text-upper text-center'>dołącz do klubu hopmaniaków i skorzystaj z mega promocji!</p>
+              <p className='font-black font-montserrat-semi-bold font-38 text-upper text-center hop-mania-text'>dołącz do klubu hopmaniaków i skorzystaj z mega promocji!</p>
               <button className='hopmania-button p-2 m-3'><p className='font-white font-montserrat-semi-bold text-upper'>dowiedz się więcej</p></button>
             </div>
           </div>
