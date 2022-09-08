@@ -1,12 +1,17 @@
 import React from 'react'
 import '../ResponsiveMenuButtonComponent/ResponsiveMenu.css';
-
+import '../ResponsiveMenuButtonComponent/ResponsiveMenu.css'
 import { Link } from "react-router-dom"
 import regulamin from '../../assets/pdf/regulamin_odskocznia.pdf'
 import regulaminUrodzinowy from '../../assets/pdf/regulamin-urodzinowy.pdf'
+import {openMenu} from '../../Constants/functions'
 export default function ResponsiveMenuComponent() {
   return (
     <div id="responsive-menu" className='flex-column flex-items-center flex-justify-btwn p-30updwn'>
+      <div onClick={openMenu} className='close-menu-wrapper'>
+        <div className='close-menu-bar shadow'></div>
+        <div className='close-menu-bar shadow'></div>
+      </div>
       <Link to="/" className='font-32 text-upper font-montserrat-medium'>
         strona główna
       </Link>

@@ -270,7 +270,7 @@ a{
   overflow: hidden;
 }
 .display{
-  display: none;
+  display: none !important;
 }
 /* buttons */
 .button{

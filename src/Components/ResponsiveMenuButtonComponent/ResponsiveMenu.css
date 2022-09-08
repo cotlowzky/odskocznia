@@ -11,7 +11,7 @@
         opacity: 1;
         overflow-x: hidden;
         transition: ease 0.5s all;
-        background-image: linear-gradient(to bottom,#a42256b0,#473174b0);
+        background-image: linear-gradient(to bottom,#a42256ee,#473174ee);
         transform: translateY(-105%);
 }
 @media only screen and (max-width: 810px) {
@@ -39,5 +39,22 @@
     .mobile-menu{
         transform: translateY(0%) !important;
         opacity: 1 !important;
+    }
+    .close-menu-bar{
+        position: absolute;
+        width: 3px;
+        height: 30px;
+        background-image: linear-gradient(to bottom,#45C8FF,#cdcd1c);
+        transform: rotate(45deg);
+    }
+    .close-menu-bar:first-of-type{
+        transform: rotate(-45deg);
+    }
+    .close-menu-bar:hover{
+        cursor:pointer;
+    }
+    .close-menu-wrapper{
+        
+        padding-bottom: 20%;
     }
 }
