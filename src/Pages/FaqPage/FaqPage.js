@@ -54,7 +54,7 @@ function FaqPage() {
                 Pytania i odpowiedzi
             </h2>
             <FaqComponentQ onClick={(e)=>showQuestion(e,'q1')}question="Co trzeba wiedzieć przed pierwszą wizytą w parku trampolin?"/>
-            <FaqComponentA answer="kaka1" />
+            <FaqComponentA answer="Na co dzień z atrakcji mogą korzystać osoby dorosłe i dzieci od 5 roku życia." />
             <FaqComponentQ onClick={(e)=>showQuestion(e,'q2')} question="Od jakiego wieku dzieci mogą korzystać z parku trampolin?"/>
             <FaqComponentA answer="Na co dzień z atrakcji mogą korzystać osoby dorosłe i dzieci od 5 roku życia. Dzieci w wieku 5-6 lat mogą bawić się tylko pod opieką osoby dorosłej." />
             <FaqComponentQ onClick={(e)=>showQuestion(e,'q3')} question="Czy można zarezerwować miejsce w Odskoczni na konkretną godzinę?"/>
