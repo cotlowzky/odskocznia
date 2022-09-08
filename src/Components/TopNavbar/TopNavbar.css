@@ -10,3 +10,6 @@
     padding-bottom: 3px;
     transition: .2s all;
 }
+.background-navbar a:first-of-type:hover{
+    border-bottom: none;
+}
