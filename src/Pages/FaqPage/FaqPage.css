@@ -31,3 +31,18 @@
     text-shadow: 0 2px rgba(0, 0, 0,0.25);
     font-family: "Lato-Bold";
 }
+
+@media only screen and (max-width: 810px) {
+    .background{
+        height: max-content;
+    }
+    .font-20{
+        font-size: 1.2em;
+    }
+    .faq{
+        width: 80%;
+    }
+    .faq-answer{
+        margin-bottom: 8% !important;
+    }
+}
