@@ -8,7 +8,7 @@
         width: 100%;
         top:0;
         left:0;
-        opacity: 0;
+        opacity: 1;
         overflow-x: hidden;
         transition: ease 0.5s all;
         background-image: linear-gradient(to bottom,#a42256b0,#473174b0);
@@ -35,18 +35,6 @@
     }
     .long-bar{
         width:30px;
-    }
-    .rotate-third-bar{
-        transform-origin: left top;
-        transform: rotate(-45deg);
-    }
-    .rotate-second-bar{
-        transform-origin: center top;
-        transform: rotate(-45deg);
-    }
-    .rotate-first-bar{
-        transform-origin: bottom left;
-        transform: rotate(45deg);
     }
     .mobile-menu{
         transform: translateY(0%) !important;
