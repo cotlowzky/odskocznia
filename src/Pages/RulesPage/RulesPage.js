@@ -6,7 +6,7 @@ import './RulesPage.css'
 function RulesPage() {
     document.body.classList.remove('overflow')
   return (
-    <div className='background h-minc p-5up'>
+    <div className='background h-100 p-5up'>
         <TopNavbar />
     <ResponsiveMenuButtonComponent />
     <ResponsiveMenuComponent />
@@ -63,7 +63,7 @@ function RulesPage() {
                 Dorośli powinni zachować odstęp 2 m odległości od siebie (stoliki są przesunięte w odpowiedniej odległości)
             </p>
         </div>
-            <p className='font-white font-montserrat-medium font-15'>
+            <p className='font-white font-montserrat-medium font-15 footer'>
             &copy; FILIP KOTŁOWSKI 2022 ALL RIGHT RESERVED
             </p>
     </div>
